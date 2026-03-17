@@ -1,0 +1,6 @@
+CREATE TABLE alerts (
+    id SERIAL PRIMARY KEY,
+    threat VARCHAR(100),
+    risk VARCHAR(50),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
